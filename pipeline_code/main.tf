@@ -5,6 +5,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_storage_account" "stg" {
+  depends_on               = [azurerm_resource_group.rg]
   for_each                 = var.stgs
   name                     = each.value.name
   location                 = each.value.location
