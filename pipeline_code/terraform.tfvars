@@ -3,6 +3,11 @@ rgs={
         name = "cheetah_rg"
         location = "Japan East"
     }
+
+    "rg2" = {
+        name = "bebu_rg"
+        location = "Japan East"
+    }
 }
 
 stgs={
