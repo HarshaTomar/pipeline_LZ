@@ -12,7 +12,7 @@ rgs = {
 
 stgs = {
   "stg1" = {
-    name                     = "storagelocal"
+    name                     = "storagelocalthythrrr"
     location                 = "Japan East"
     resource_group_name      = "cheetah_rg"
     account_replication_type = "LRS"
